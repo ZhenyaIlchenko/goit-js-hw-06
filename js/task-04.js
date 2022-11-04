@@ -5,7 +5,7 @@ const refs = {
 };
 // console.log(refs);
 
-let counterValue = 15;
+let counterValue = 0;
 
 const render = () => {
   refs.value.textContent = counterValue;
